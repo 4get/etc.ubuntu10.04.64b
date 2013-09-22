@@ -1,8 +1,10 @@
 auto lo
 iface lo inet loopback
 
-auto eth0
-iface eth0 inet static
-address 172.16.55.90
+auto eth1
+#iface eth0 inet dhcp
+iface eth1 inet static
+address 192.168.4.12
 netmask 255.255.255.0
-gateway 172.16.55.254
+gateway 192.168.4.254
+

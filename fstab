@@ -11,4 +11,4 @@ UUID=f32e165c-b2cd-4b96-9268-da3c18323a47 /               ext4    errors=remount
 # swap was on /dev/sda5 during installation
 UUID=0d09aebe-1e94-46d1-a32f-37de1f77b7a5 none            swap    sw              0       0
 /dev/fd0        /media/floppy0  auto    rw,user,noauto,exec,utf8 0       0
-/dev/sdb1               /workspace              ext4    defaults        0       1
+/dev/sdb               /workspace              ext4    defaults        0       1
